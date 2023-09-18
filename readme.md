@@ -122,8 +122,8 @@ This application is built using the following technologies and libraries:
 
 ## API Endpoints
 
-    "/register" - for registeration and send otp to the registeration number.
-    "/verifyOTP" - for otp verification
+    "/register" - For registration and sending otp to the mobile number through sms.
+    "/verifyOTP" - For otp verification.
 
 
 ## Contact Info
