@@ -51,8 +51,8 @@ UserRouter.post("/register",[
                    password:hashedpass,
                    mobileNumber,
                    verification_ip:jsonResponse.ip,
-                   verifiaction_state:jsonResponse.state,
-                   verifiaction_city:jsonResponse.city,
+                   verification_state:jsonResponse.state,
+                   verification_city:jsonResponse.city,
                    verification_pincode:jsonResponse.postal,
                    otp, 
                   })

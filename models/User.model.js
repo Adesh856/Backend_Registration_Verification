@@ -14,19 +14,21 @@ const UserSchema = mongoose.Schema({
         type:String,
         required:true
     },
-    verifiaction_city:{
+    verification_city:{
         type:String
     },
     verification_pincode:{
         type:Number
     },
-    verifiaction_state:{
+    verification_state:{
         type:String
     },
     verification_ip:{
         type:String
     },
-    mobileNumber: Number,
+    mobileNumber: {
+        type:Number
+    },
     mobileNumber_is_Verified:{
       type:Boolean,
       default:false
