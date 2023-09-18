@@ -3,7 +3,7 @@ const UserRouter = express.Router()
 const { body, validationResult } = require('express-validator');
 require("dotenv").config()
 const bcrypt = require("bcrypt")
-const UserModel = require('../Models/User.model');
+const UserModel = require('../models/User.model');
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
 const client = require('twilio')(
